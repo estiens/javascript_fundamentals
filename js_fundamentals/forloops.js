@@ -4,11 +4,29 @@
 
 // Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
 
+for (i=0;i<21;i++ ) 
+  if (i===0){
+    console.log("This number is 0");  
+  }
+  else if (i % 2 === 0){
+    console.log("This number is even");}
+  else{
+    console.log("This number is odd");}
+
 // EXERCISE: Multiplication Tables
 
 // Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
 
 // Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
+
+
+;
+for (i=1;i<11;i++) {
+  for (j=1;j<11;j++) {
+    total=i*j;
+    console.log(total);}
+  console.log("\n");}
+    
 
 // EXERCISE: The Grade Assigner
 
